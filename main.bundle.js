@@ -271,7 +271,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var DataService = /** @class */ (function () {
     function DataService() {
-        this.goals = new __WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject__["a" /* BehaviorSubject */](['The initial goal', 'Another silly goal']);
+        this.goals = new __WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject__["a" /* BehaviorSubject */](['Raze to the ground the Great Walls of China ', 'Reach the top of Mount Everest .. naked']);
         this.goal = this.goals.asObservable();
     }
     DataService.prototype.changeGoal = function (goal) {
